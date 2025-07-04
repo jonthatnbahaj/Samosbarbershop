@@ -313,7 +313,7 @@ const Footer = () => {
 
           {/* CTA Section - Side by Side Buttons */}
           <div className="border-t border-gray-800 mt-8 md:mt-12 pt-6 md:pt-8 text-center">
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex justify-center">
               <button 
                 onClick={() => scrollToSection('tjanster')}
                 className="bg-amber-500 hover:bg-amber-600 text-black px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold text-base md:text-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center"
@@ -321,26 +321,6 @@ const Footer = () => {
                 <Scissors className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                 Boka Tid Nu
               </button>
-              
-              {/* PWA Install Button - Always visible if not installed */}
-              {!isInstalled && (
-                <button
-                  onClick={handleInstallClick}
-                  className="bg-gray-800 hover:bg-gray-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 inline-flex items-center text-base md:text-lg border border-gray-600 hover:border-amber-500"
-                  title="Installera appen för snabbare åtkomst och offline-funktioner"
-                >
-                  <Download className="w-4 h-4 md:w-5 md:h-5 mr-2" />
-                  Installera Appen
-                </button>
-              )}
-              
-              {/* Show installed status */}
-              {isInstalled && (
-                <div className="bg-green-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold text-base md:text-lg inline-flex items-center">
-                  <span className="mr-2">✅</span>
-                  App Installerad
-                </div>
-              )}
             </div>
           </div>
 
