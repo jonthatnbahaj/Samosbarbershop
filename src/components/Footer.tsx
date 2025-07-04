@@ -356,26 +356,6 @@ const Footer = () => {
               </button>
               <span className="hidden sm:block text-gray-600">•</span>
               <a
-                href="mailto:samosbarbershop@gmail.com?subject=GDPR%20Förfrågan"
-                className="text-gray-400 hover:text-amber-400 transition-colors duration-300 text-sm md:text-base"
-              >
-                GDPR-förfrågningar
-              </a>
-              <span className="hidden sm:block text-gray-600">•</span>
-              <a
-                href="tel:0361271212"
-                className="text-gray-400 hover:text-amber-400 transition-colors duration-300 text-sm md:text-base"
-              >
-                Kundservice
-              </a>
-            </div>
-            
-            <p className="text-gray-400 text-sm md:text-base mb-2">
-              © 2010-{new Date().getFullYear()} Samos Barbershop. Alla rättigheter förbehållna.
-            </p>
-            <p className="text-gray-500 text-xs md:text-sm">
-              Professionell frisörsalong i Jönköping | Klostergatan 50B | 036-12 71 12
-            </p>
           </div>
         </div>
 

@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.samosbarbershop.twa",
+      "sha256_cert_fingerprints": [
+        "84:95:16:47:AF:34:DC:5E:29:1E:98:9C:8B:0E:70:72:3B:BA:1E:02:01:37:28:F0:C0:B0:E7:9E:BA:41:53:E4"
+      ]
+    }
+  }
+]
