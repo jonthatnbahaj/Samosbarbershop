@@ -355,7 +355,8 @@ const Footer = () => {
                 Integritetspolicy
               </button>
               <span className="hidden sm:block text-gray-600">•</span>
-              <a
+              <a></a>
+            </div>
           </div>
         </div>
 
